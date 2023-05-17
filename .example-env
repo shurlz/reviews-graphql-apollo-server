@@ -1,2 +1,8 @@
-MONGO_URL=mongodb://localhost:27017/review
+
+// for running mongo locally
+MONGO_URL="mongodb://localhost:27017/review" 
+
 TOKEN_SECRET=abcdefghijk
+
+// for running mongo in deployment
+MONGO_URL="mongodb+srv://<database>:<password>@cluster0.ogn9umd.mongodb.net/<collection>?retryWrites=true&w=majority"

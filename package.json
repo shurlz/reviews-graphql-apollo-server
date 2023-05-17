@@ -7,13 +7,15 @@
   "scripts": {
     "compile": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run compile && node ./dist/server.js"
+    "start": "npm run compile && node ./dist/server.js",
+    "dev": "node ./dist/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.7.1",
+    "@as-integrations/aws-lambda": "^2.0.1",
     "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
     "graphql": "^16.6.0",
@@ -24,6 +26,7 @@
     "@types/node": "^20.1.0",
     "nodemon": "^2.0.22",
     "prettier": "^2.8.8",
+    "serverless-plugin-typescript": "^2.1.4",
     "typescript": "^5.0.4"
   }
 }

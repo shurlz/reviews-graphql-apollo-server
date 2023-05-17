@@ -13,7 +13,7 @@ export const ratingsDefs = `
         state: String!
         adderss: String!
         review: String!
-        createdBy: String!
+        createdBy: User!
     }
     
     type Mutation {
